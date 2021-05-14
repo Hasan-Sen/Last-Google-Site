@@ -1,0 +1,149 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img1{
+ padding: 0;
+ max-height: 100%;
+ min-width: 100%;
+ border-radius:50%;
+}
+.image{
+    width: 35px;
+    height: 35px;
+   
+}
+li{
+    list-style-type:none;
+    
+}
+a{
+    text-decoration: none;
+}
+.nav-element{
+    margin: 10px 20px 0px 0px;
+    
+}
+svg{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.adg{
+    margin-top: 13px;
+}
+.img2{
+    width: 272px;
+    height: 92px;
+}
+.search{
+ width: 487px;
+ height: 20px;
+ border-radius: 20px;
+ border:solid lightsteelblue 1px;
+ padding: 10px;
+ 
+
+}
+input{
+    max-height: 90%;
+    min-width: 90%;
+   
+    border: none;
+    outline: none;
+}
+i{
+    width: 10px;
+    height: 10px;
+    margin-right: 1px;
+    color: slategrey;
+}
+.logo{
+    margin-bottom: 25px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+.container{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.btn{
+    display: flex;
+ 
+    padding: 10px;
+    flex-direction: row;
+}
+button{
+    padding: 8px;
+    border: snow;
+    border-color:white;
+    border-radius: 2px;
+    
+}
+
+
+/* Footer Bölümü */
+.footer ul li{
+  
+    
+    margin-right: 15px;
+   
+}
+.footer-down{
+    display:flex;
+    background-color: rgba(224, 219, 219, 0.54);
+    
+    
+     
+}
+.footer-up{
+    display: flex;
+    justify-content: flex-start;
+    background-color:rgba(224, 219, 219, 0.54) ;
+    padding: 10px;
+}
+.footer-up li{
+    margin-left: 10%;
+}
+
+.footer-first ul{
+    display:flex;
+    flex-direction: row;
+   
+   
+}
+.footer-second ul{
+    display:flex;
+    flex-direction: row;
+   
+}
+.footer-third ul{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.footer-down{
+    display: flex;
+    justify-content: space-around;
+    
+}
+hr{
+    color: rgba(187, 183, 183, 0.54);
+    background-color:rgba(187, 183, 183, 0.54) ;
+    margin: -1px 0px;
+}
+.footer{
+   position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
